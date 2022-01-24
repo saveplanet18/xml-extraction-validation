@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Auto-generated XML Document STi-EI Shipment Status Version 1.0.0 -->
+
+<ShipmentStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://www.wwalliance.com/wiki/images/d/d4/WWA_Shipment_Status_version_1.1.0.xsd">
+     <Envelope>
+          <SenderID>edi_shipco_prod</SenderID>
+          <ReceiverID>WorldWideAlliance</ReceiverID>
+          <Password>XXXXXXXXXXXXXXXXXXXX</Password>
+          <Type>Shipment_Status_XML_1.0.0</Type>
+          <Version>1.0.0</Version>
+          <EnvelopeID>1614669304209</EnvelopeID>
+     </Envelope>
+     <ShipmentStatusDetails>
+          <ApplicationType>MN</ApplicationType>
+          <TypeOfMove>L</TypeOfMove>
+          <ShipperReference>SK20802</ShipperReference>
+          <ForwarderReference>SK20802</ForwarderReference>
+          <CustomerReference>SK20802</CustomerReference>
+          <ConsigneeReference></ConsigneeReference>
+          <CommunicationReference></CommunicationReference>
+          <PickupReference></PickupReference>
+          <BookingNumber>22705036</BookingNumber>
+          <WWAShipmentReference>22705036CNDLC01</WWAShipmentReference>
+          <CarrierBookingNumber></CarrierBookingNumber>
+          <FileNumber></FileNumber>
+          <LotNumber>22705036</LotNumber>
+          <ContainerNumber>KKFU7676628</ContainerNumber>
+          <ContainerSize>25</ContainerSize>
+          <ContainerType></ContainerType>
+          <ContainerCode></ContainerCode>
+          <SealNumber>10247</SealNumber>
+          <OceanVessel>DOOWOO FAMILY</OceanVessel>
+          <Voyage>2108E</Voyage>
+          <CustomerAlias>SAVINODEL</CustomerAlias>
+          <InTransitNumber></InTransitNumber>
+          <InTransitDate></InTransitDate>
+          <StatusCode>40</StatusCode>
+          <StatusLocationCode>CNDLC</StatusLocationCode>
+          <StatusLocationName>Dalian</StatusLocationName>
+          <RoutingDetails>
+         <ReceivingWarehouse>CNDLC</ReceivingWarehouse>      
+               <CutoffReceivingWarehouse>2021-03-16</CutoffReceivingWarehouse>
+               <PlaceOfReceipt>CNDLC</PlaceOfReceipt>
+               <ETSPlaceOfReceipt>2021-03-19</ETSPlaceOfReceipt>
+               <PortOfLoading>CNDLC</PortOfLoading>
+               <ETSPortOfLoading>2021-03-19</ETSPortOfLoading>
+               <PortOfDischarge>KRPUS</PortOfDischarge>
+               <ETAPortOfDischarge>2021-03-21</ETAPortOfDischarge>
+               <PlaceOfDelivery>PLGDN</PlaceOfDelivery>
+               <ETAPlaceOfDelivery>2021-03-21</ETAPlaceOfDelivery>
+          </RoutingDetails>
+          <StatusDateTimeDetails>
+               <Date>2021-03-02</Date>
+               <Time>15:08:00</Time>
+               <TimeZone>GMT</TimeZone>
+          </StatusDateTimeDetails>
+          <CargoDetails>
+               <Pieces>20</Pieces>
+               <WeightLBS>793.664</WeightLBS>
+               <VolumeCBF>194.231</VolumeCBF>
+               <WeightKG>360.000</WeightKG>
+               <VolumeCBM>5.500</VolumeCBM>
+               <HazardousFlag>N</HazardousFlag>
+          </CargoDetails>
+          <DocumentationDetails>
+               <ImageLink>https://www.shipco.com/ecommerce/include/edi_filedownload.php?bname=sti-shipmentstatus-docs&amp;filename=EUSL5D_Documentation_14991397_20.pdf</ImageLink>
+               <Image></Image>
+               <ContentType>application/pdf</ContentType>
+          </DocumentationDetails>
+     </ShipmentStatusDetails>
+</ShipmentStatus>
